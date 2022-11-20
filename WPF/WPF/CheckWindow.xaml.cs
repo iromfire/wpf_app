@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace WPF
 {
     /// <summary>
-    /// Логика взаимодействия для Window.xaml
+    /// Логика взаимодействия для CheckWindow.xaml
     /// </summary>
-    public partial class Window : Window
+    public partial class CheckWindow : Window
     {
-        public Window()
+        public CheckWindow()
         {
             InitializeComponent();
         }
