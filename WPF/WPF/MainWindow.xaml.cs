@@ -24,5 +24,11 @@ namespace WPF
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            CheckWindow checkWindow = new CheckWindow();
+            checkWindow.ShowDialog();
+        }
     }
 }
